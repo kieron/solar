@@ -10,7 +10,7 @@ import { capitalize } from '~/utils/str'
 import { Size } from '~/composables/useScreen'
 
 // composable
-const { t } = useLang()
+
 const screen = useScreen()
 
 // compiler macro
