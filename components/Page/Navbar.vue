@@ -13,16 +13,16 @@ const app = useAppConfig() as AppConfigInput
 const menus = computed((): IMenuItem[] => [
   {
     type: 'link',
-    text: t('pages.getting-started.nav'),
+    text: 'pages.getting-started.nav',
     route: { name: 'getting-started' },
   },
-  { type: 'link', text: t('pages.blank.nav'), route: { name: 'blank' } },
-  { type: 'link', text: t('pages.test.nav'), route: { name: 'test' } },
-  { type: 'link', text: t('pages.post.nav'), route: { name: 'post' } },
-  { type: 'link', text: t('pages.setting.nav'), route: { name: 'setting' } },
+  { type: 'link', text: 'pages.blank.nav', route: { name: 'blank' } },
+  { type: 'link', text: 'pages.test.nav', route: { name: 'test' } },
+  { type: 'link', text: 'pages.post.nav', route: { name: 'post' } },
+  { type: 'link', text: 'pages.setting.nav', route: { name: 'setting' } },
   {
     type: 'button',
-    text: t('pages.dashboard.nav'),
+    text: 'pages.dashboard.nav',
     route: { name: 'dashboard' },
   },
 ])
@@ -35,10 +35,10 @@ const menus = computed((): IMenuItem[] => [
         class="text-white text-xs text-center py-1 px-4 lg:px-8 bg-primary-500 capitalize"
       >
         <span class="mr-1">
-          {{ $t('banners.welcome', { app_name: app.name }) }}
+          
           <Anchor
             class="underline font-bold"
-            :text="$t('others.learn_more')"
+            :text="others.learn_more"
             href="https://github.com/viandwi24/nuxt3-awesome-starter"
           />
         </span>
@@ -118,7 +118,7 @@ const menus = computed((): IMenuItem[] => [
             </ul>
           </nav>
           <div class="mt-6 text-sm font-bold capitalize">
-            {{ $t('components.theme_switcher.change_theme') }}
+            {{ components.theme_switcher.change_theme }}
           </div>
           <div class="mt-2">
             <ThemeSwitcher type="select-box" />
