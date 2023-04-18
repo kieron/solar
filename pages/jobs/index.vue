@@ -8,7 +8,7 @@ definePageMeta({
   layout: 'page',
 })
 useHead(() => ({
-  title: capitalize('pages.post.title'),
+  title: 'Jobs',
   meta: [
     {
       name: 'description',
@@ -53,7 +53,7 @@ useHead(() => ({
                   class="text-sm flex space-x-1 items-center text-primary-500"
                   :to="article._path"
                 >
-                  <span>others.learn_more</span>
+                  <span>Learn More</span>
                   <icon:ic:baseline-arrow-right-alt class="text-sm" />
                 </Anchor>
               </div>

@@ -29,10 +29,7 @@ const currentStyle = toRef(props, 'type')
       as="div"
       class="relative flex items-center"
     >
-      <ListboxLabel class="sr-only">
-        components.theme_switcher.change_theme
-        <!-- {{ components.theme_switcher.change_theme }} -->
-      </ListboxLabel>
+      <ListboxLabel class="sr-only">Theme</ListboxLabel>
       <ListboxButton
         type="button"
         title="components.theme_switcher.change_theme"

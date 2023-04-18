@@ -100,22 +100,11 @@ const menus = computed((): IMenuItem[] => [
               </li>
             </ul>
           </nav>
-          <div class="mt-6 text-sm font-bold capitalize">
-            components.theme_switcher.change_theme
-            <!-- {{ components.theme_switcher.change_theme }} -->
-          </div>
+          <div class="mt-6 text-sm font-bold capitalize">Theme</div>
           <div class="mt-2">
             <ThemeSwitcher type="select-box" />
           </div>
         </ActionSheetBody>
-        <Button
-          type="secondary"
-          title="Github"
-          href="https://github.com/viandwi24/nuxt3-awesome-starter"
-        >
-          <IconMdi:github-face />
-          <span class="ml-1">Github</span>
-        </Button>
         <Button
           text="Close"
           type="secondary"
