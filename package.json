@@ -13,7 +13,7 @@
     "serve": "serve dist/",
     "lint": "eslint --ext \".ts,.js,.vue\" --ignore-path .eslintignore .",
     "lintfix": "eslint --fix --ext \".ts,.js,.vue\" --ignore-path .eslintignore .",
-    "clean": "rm -rf .nuxt dist .output",
+    "clean": "rm -rf .nuxt dist .output"
   },
   "devDependencies": {
     "@babel/core": "^7.20.2",
