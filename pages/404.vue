@@ -9,7 +9,7 @@ definePageMeta({
   layout: 'page',
 })
 useHead(() => ({
-  title: capitalize(pages.404.title),
+  title: capitalize(pages.404.title)
 }))
 </script>
 
