@@ -43,7 +43,7 @@ const copyBash = () => {
         <div class="flex-1 md:w-5/8 flex flex-col z-10">
           <h1 class="text-center md:text-left mt-4">
             <span
-              class="animated-text-bg drop-shadow-xl text-5xl xl:text-8xl 2xl:text-9xl block font-black uppercase"
+              class="animated-text-bg drop-shadow-xl text-4xl xl:text-5xl 2xl:text-6xl block font-black uppercase"
             >
               <span class="">Find your dream job in Solar</span>
             </span>
