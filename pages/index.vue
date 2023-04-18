@@ -1,7 +1,6 @@
 <script lang="ts" setup>
 // composable
 
-
 // meta
 definePageMeta({
   layout: 'page',
