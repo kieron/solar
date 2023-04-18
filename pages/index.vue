@@ -44,7 +44,7 @@ const copyBash = () => {
             <span
               class="animated-text-bg drop-shadow-xl text-4xl xl:text-5xl 2xl:text-6xl block font-black uppercase"
             >
-              <span class="">Find your dream job in Solar</span>
+              <span class="">Find your dream <br />job in Solar</span>
             </span>
           </h1>
           <div
@@ -52,13 +52,13 @@ const copyBash = () => {
           >
             <Button
               size="lg"
-              text="Nuxt 3"
+              text="Find a Job"
               class="font-extrabold"
               href="https://v3.nuxtjs.org"
             />
             <Button
               size="lg"
-              text="Github"
+              text="Post a Job"
               type="secondary"
               class="font-extrabold"
               href="https://github.com/viandwi24/nuxt3-awesome-starter"

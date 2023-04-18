@@ -10,7 +10,7 @@ export interface IMenuItem {
 
 const app = useAppConfig() as AppConfigInput
 const menus = computed((): IMenuItem[] => [
-  { type: 'link', text: 'pages.post.nav', route: { name: 'post' } },
+  { type: 'link', text: 'Posts', route: { name: 'post' } },
   // {
   //   type: 'button',
   //   text: 'pages.dashboard.nav',
