@@ -54,14 +54,14 @@ const copyBash = () => {
               size="lg"
               text="Find a Job"
               class="font-extrabold"
-              href="https://v3.nuxtjs.org"
+              href="/jobs"
             />
             <Button
               size="lg"
               text="Post a Job"
               type="secondary"
               class="font-extrabold"
-              href="https://github.com/viandwi24/nuxt3-awesome-starter"
+              href="#"
             />
           </div>
         </div>

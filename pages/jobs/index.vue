@@ -21,10 +21,10 @@ useHead(() => ({
 <template>
   <PageWrapper>
     <PageHeader>
-      <PageTitle text="pages.post.title" class="capitalize" />
+      <PageTitle text="Jobs in Solar" class="capitalize" />
     </PageHeader>
     <PageBody>
-      <ContentList v-slot="{ list }" path="/post">
+      <ContentList v-slot="{ list }" path="/job">
         <PageSection v-for="article in list" :key="article._path">
           <div
             class="block hover:no-underline p-6 flex space-x-6 rounded border border-gray-900/10 dark:border-gray-50/[0.2]"
