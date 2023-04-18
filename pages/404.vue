@@ -3,13 +3,12 @@ import { capitalize } from '~/utils/str'
 
 // composable
 
-
 // compiler macro
 definePageMeta({
   layout: 'page',
 })
 useHead(() => ({
-  title: capitalize(pages.404.title)
+  title: 'Whoops!',
 }))
 </script>
 
