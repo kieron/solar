@@ -8,11 +8,11 @@ definePageMeta({
   layout: 'page',
 })
 useHead(() => ({
-  title: capitalize(pages.post.title),
+  title: capitalize('pages.post.title'),
   meta: [
     {
       name: 'description',
-      content: pages.post.description,
+      content: 'pages.post.description',
     },
   ],
 }))
