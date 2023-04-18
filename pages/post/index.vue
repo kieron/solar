@@ -21,7 +21,7 @@ useHead(() => ({
 <template>
   <PageWrapper>
     <PageHeader>
-      <PageTitle :text="pages.post.title" class="capitalize" />
+      <PageTitle text="pages.post.title" class="capitalize" />
     </PageHeader>
     <PageBody>
       <ContentList v-slot="{ list }" path="/post">

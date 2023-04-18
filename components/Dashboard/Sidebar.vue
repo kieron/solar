@@ -54,7 +54,7 @@ export default defineComponent({
                 'font-extrabold text-sky-500 dark:text-sky-400': i === 1,
               }"
             >
-              {{ pages.dashboard.index.nav }}
+              pages.dashboard.index.nav
             </span>
           </Anchor>
         </li>
