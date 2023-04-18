@@ -1,7 +1,7 @@
 export default defineAppConfig({
-  name: 'Nuxt 3 Awesome Starter',
+  name: "Solar Jobs",
   author: {
-    name: 'viandwi24',
-    link: 'https://github.com/viandwi24',
+    name: "viandwi24",
+    link: "https://github.com/viandwi24",
   },
-})
+});
