@@ -10,20 +10,12 @@ export interface IMenuItem {
 
 const app = useAppConfig() as AppConfigInput
 const menus = computed((): IMenuItem[] => [
-  {
-    type: 'link',
-    text: 'pages.getting-started.nav',
-    route: { name: 'getting-started' },
-  },
-  { type: 'link', text: 'pages.blank.nav', route: { name: 'blank' } },
-  { type: 'link', text: 'pages.test.nav', route: { name: 'test' } },
   { type: 'link', text: 'pages.post.nav', route: { name: 'post' } },
-  { type: 'link', text: 'pages.setting.nav', route: { name: 'setting' } },
-  {
-    type: 'button',
-    text: 'pages.dashboard.nav',
-    route: { name: 'dashboard' },
-  },
+  // {
+  //   type: 'button',
+  //   text: 'pages.dashboard.nav',
+  //   route: { name: 'dashboard' },
+  // },
 ])
 </script>
 
@@ -116,7 +108,8 @@ const menus = computed((): IMenuItem[] => [
             </ul>
           </nav>
           <div class="mt-6 text-sm font-bold capitalize">
-            {{ components.theme_switcher.change_theme }}
+            components.theme_switcher.change_theme
+            <!-- {{ components.theme_switcher.change_theme }} -->
           </div>
           <div class="mt-2">
             <ThemeSwitcher type="select-box" />
