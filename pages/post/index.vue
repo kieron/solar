@@ -3,7 +3,6 @@ import { capitalize } from '~/utils/str'
 
 // composable
 
-
 // compiler macro
 definePageMeta({
   layout: 'page',
