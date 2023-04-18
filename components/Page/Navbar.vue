@@ -36,7 +36,7 @@ const menus = computed((): IMenuItem[] => [
         <span class="mr-1">
           <Anchor
             class="underline font-bold"
-            :text="others.learn_more"
+            text="others.learn_more"
             href="https://github.com/viandwi24/nuxt3-awesome-starter"
           />
         </span>
