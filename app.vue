@@ -13,7 +13,7 @@ useHead({
     { name: 'viewport', content: 'width=device-width, initial-scale=1' },
     {
       hid: 'description',
-      name: 'description',
+      name: 'The number one website for finding jobs in Solar',
       content: 'Solar Jobs',
     },
   ],

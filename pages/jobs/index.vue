@@ -11,8 +11,8 @@ useHead(() => ({
   title: 'Jobs',
   meta: [
     {
-      name: 'description',
-      content: 'pages.post.description',
+      name: 'Job Listings',
+      content: 'The number one website for finding jobs in Solar',
     },
   ],
 }))
